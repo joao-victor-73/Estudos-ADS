@@ -1,6 +1,6 @@
 body {
     background-color: rgb(191, 209, 203);
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .container {
@@ -12,8 +12,8 @@ body {
 .cabecalho {
     background-color: rgb(152, 200, 184);
     border-radius: 20px;
-    width: 1250px;
-    height: 350px;
+    width: 500px;
+    height: 200px;
 
 
     margin: auto;
@@ -31,17 +31,17 @@ body {
     margin-top: 50%;
     margin-left: 300%;
 
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 
 }
 
 #titulo {
-    font-size: 80px;
+    font-size: 30px;
 }
 
 #subtitulo {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .exemplo1 {
