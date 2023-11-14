@@ -24,7 +24,7 @@ CREATE TABLE salas (
 CREATE TABLE usuarios (
     idUser INT PRIMARY KEY,
     nomeUser VARCHAR(50) NOT NULL,
-    cargo VARCHAR (20),
+    cargo VARCHAR (20), 
     telefone CHAR(11) NOT NULL /*Ex: 25.9.8745-8552 // precisa ser NOT NULL porque precisa de um número para ligar*/,
     fk_idEmpresa INT
 )
