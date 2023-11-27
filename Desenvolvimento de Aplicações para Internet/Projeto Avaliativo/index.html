@@ -205,11 +205,12 @@
                 <div class="col-lg-6">
 
                     <!-- Para referencias futuras e revisões: https://startbootstrap.com/guides/sb-forms-advanced -->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN" method="POST"
+                        action="./php/processamento.php">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                data-sb-validations="required" />
+                                data-sb-validations="required" name="name_php" />
                             <label for="name">Nome</label>
                             <div class="invalid-feedback" data-sb-feedback="name:required">O seu nome é obrigatório.
                             </div>
@@ -217,7 +218,7 @@
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                data-sb-validations="required,email" />
+                                data-sb-validations="required,email" name="email_php" />
                             <label for="email">Email</label>
                             <div class="invalid-feedback" data-sb-feedback="email:required">Um email é obrigatório.
                             </div>
@@ -226,7 +227,7 @@
                         <!-- Phone number input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                                data-sb-validations="required" />
+                                data-sb-validations="required" name="number_php" />
                             <label for="phone">Número de telefone</label>
                             <div class="invalid-feedback" data-sb-feedback="phone:required">Número de telefone
                                 obrigatório.
@@ -236,7 +237,7 @@
                         <div class="form-floating mb-3">
                             <textarea class="form-control" id="message" type="text"
                                 placeholder="Enter your message here..." style="height: 10rem"
-                                data-sb-validations="required"></textarea>
+                                data-sb-validations="required" name="menssage_php"></textarea>
                             <label for="message">Mensagem</label>
                             <div class="invalid-feedback" data-sb-feedback="message:required">A mensagem é obrigatório.
                             </div>
