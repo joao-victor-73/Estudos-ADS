@@ -9,7 +9,7 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    // Navbar shrink function
+    // Function para o Navbar shrink
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
@@ -59,3 +59,6 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 
+function alerta_forms() {
+        window.alert("Formulario enviado com sucesso!")
+}
